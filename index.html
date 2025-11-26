@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>St. Jude Medical Center | Trusted Healthcare</title>
-
+    <title>
+      St. Jude Medical Center | Vertrauenswürdige Gesundheitsversorgung
+    </title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -13,23 +14,16 @@
       <div class="container header-content">
         <!-- Logo -->
         <div class="logo">
-          <span class="text-primary">St. Jude</span> Medical
+          <span class="text-primary">St. Jude</span> Medizin
         </div>
-
         <!-- Navigation (Desktop) -->
         <nav class="nav-menu">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Doctors</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact</a>
+          <a href="#">Startseite</a> <a href="#">Leistungen</a>
+          <a href="#">Karrier</a> <a href="#">Über uns</a>
+          <a href="#">Kontakt</a>
         </nav>
-
         <!-- Call to Action Button -->
-        <a href="#" class="btn btn-primary cta-btn-desktop">
-          Book Appointment
-        </a>
-
+        <a href="#" class="btn btn-primary cta-btn-desktop"> Termin buchen </a>
         <!-- Mobile Menu Button (Hamburger) -->
         <button class="mobile-menu-btn md:hidden">
           <svg
@@ -49,17 +43,18 @@
         </button>
       </div>
     </header>
-
     <main class="container main-content">
       <!-- Hero Section -->
       <section class="hero-section">
         <div class="hero-text">
           <h1 class="hero-title">
-            Exceptional Care, <span class="text-primary">Closer to You.</span>
+            Herausragende Pflege,
+            <span class="text-primary">näher bei Ihnen.</span>
           </h1>
           <p class="hero-subtitle">
-            We combine advanced medical technology with compassionate,
-            patient-centered care. Your health is our priority.
+            Wir verbinden fortschrittliche Medizintechnik mit einfühlsamer,
+            patientenorientierter Betreuung. Ihre Gesundheit hat für uns
+            Priorität.
           </p>
           <div class="hero-actions">
             <!-- Primary Blue Button -->
@@ -67,156 +62,143 @@
               href="#"
               class="btn btn-primary px-6 py-3 text-lg font-semibold shadow-lg"
             >
-              Schedule a Visit
+              Besuch planen
             </a>
             <!-- Outlined Blue Button -->
             <a href="#" class="btn btn-outline px-6 py-3 text-lg font-semibold">
-              Emergency Contact
+              Notfallkontakt
             </a>
           </div>
         </div>
         <!-- Image Placeholder -->
         <div class="hero-image">
-          <img
-            src="https://placehold.co/600x400/3b82f6/ffffff?text=Modern+Hospital+Image"
-            alt="Modern hospital entrance"
-            onerror="this.onerror=null;this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Image+Loading+Error';"
-          />
+          <img src="images/img01.jpg" alt="Moderner Krankenhauseingang" />
         </div>
       </section>
-
       <!-- Services Section -->
       <section class="services-section">
-        <h2 class="section-title">Our Specialized Services</h2>
-
+        <h2 class="section-title">Unsere spezialisierten Leistungen</h2>
         <!-- Services Grid -->
         <div class="services-grid">
           <!-- Service Card 1 -->
           <div class="service-card">
             <div class="icon">🏥</div>
-            <h3>Primary Care</h3>
+            <h3>Allgemeinmedizin</h3>
             <p>
-              Comprehensive and continuous healthcare for individuals and
-              families.
+              Umfassende und kontinuierliche Gesundheitsversorgung für
+              Einzelpersonen und Familien.
             </p>
           </div>
-
           <!-- Service Card 2 -->
           <div class="service-card">
             <div class="icon">🔬</div>
-            <h3>Diagnostic Imaging</h3>
+            <h3>Diagnostische Bildgebung</h3>
             <p>
-              State-of-the-art MRI, CT scans, and X-ray services for accurate
-              diagnosis.
+              Modernste MRI-, CT- und Röntgentechnologie für präzise Diagnosen.
             </p>
           </div>
-
           <!-- Service Card 3 -->
           <div class="service-card">
             <div class="icon">❤️</div>
-            <h3>Cardiology</h3>
+            <h3>Kardiologie</h3>
             <p>
-              Expert care for heart health, including testing, treatment, and
-              rehabilitation.
+              Fachkundige Betreuung der Herzgesundheit, inklusive Tests,
+              Behandlungen und Rehabilitation.
             </p>
           </div>
-
           <!-- Service Card 4 -->
           <div class="service-card">
             <div class="icon">🧠</div>
-            <h3>Neurology</h3>
+            <h3>Neurologie</h3>
             <p>
-              Specializing in the diagnosis and treatment of nervous system
-              disorders.
+              Spezialisiert auf die Diagnose und Behandlung von Erkrankungen des
+              Nervensystems.
             </p>
           </div>
         </div>
       </section>
-
-      <!-- Testimonial/Quote Section: Uses a subtle light blue background -->
+      <!-- Testimonial Section -->
       <section class="testimonial-section">
         <div class="text-center">
           <p class="testimonial-quote">
-            "The compassion and professionalism of the staff were truly
-            outstanding. I felt cared for every step of the way."
+            "Das Mitgefühl und die Professionalität des Personals waren wirklich
+            außergewöhnlich. Ich fühlte mich in jeder Phase gut betreut."
           </p>
-          <p class="testimonial-author">- Jane Doe, Satisfied Patient</p>
+          <p class="testimonial-author">– Jane Doe, zufriedene Patientin</p>
         </div>
       </section>
-
       <!-- Contact/Find a Doctor Form Section -->
       <section class="form-section">
-        <h2 class="section-title">Need to Find a Doctor or Specialist?</h2>
+        <h2 class="section-title">Suchen Sie einen Arzt oder Spezialisten?</h2>
         <form class="form-grid">
           <!-- Search by Specialty -->
           <div>
-            <label for="specialty" class="form-label">Medical Specialty</label>
+            <label for="specialty" class="form-label">Fachrichtung</label>
             <select id="specialty" class="form-select">
-              <option>Select Specialty</option>
-              <option>Pediatrics</option>
-              <option>Orthopedics</option>
-              <option>Oncology</option>
-              <option>Dermatology</option>
+              <option>Fachrichtung auswählen</option>
+              <option>Pädiatrie</option>
+              <option>Orthopädie</option>
+              <option>Onkologie</option>
+              <option>Dermatologie</option>
             </select>
           </div>
-
           <!-- Search by Location -->
           <div>
-            <label for="location" class="form-label">City or Zip Code</label>
+            <label for="location" class="form-label"
+              >Stadt oder Postleitzahl</label
+            >
             <input
               type="text"
               id="location"
-              placeholder="e.g., 90210"
+              placeholder="z. B. 90210"
               class="form-input"
             />
           </div>
-
           <!-- Submit Button -->
           <div class="form-button-container">
-            <button type="submit" class="btn-submit">Find a Doctor</button>
+            <button type="submit" class="btn-submit">Arzt finden</button>
           </div>
         </form>
       </section>
     </main>
-
-    <!-- Footer: Uses a Dark Blue Background -->
+    <!-- Footer -->
     <footer class="footer">
       <div class="container footer-grid">
-        <!-- Col 1: Logo & Mission -->
+        <!-- Col 1 -->
         <div class="footer-logo col-span-2 md:col-span-1">
           <h3 class="text-xl font-bold text-primary mb-3">St. Jude Medical</h3>
-          <p>Dedicated to providing quality healthcare services 24/7.</p>
-          <p class="mt-4 text-sm">© 2025 All Rights Reserved.</p>
+          <p>
+            Engagiert für eine hochwertige Gesundheitsversorgung rund um die
+            Uhr.
+          </p>
+          <p class="mt-4 text-sm">© 2025 Alle Rechte vorbehalten.</p>
         </div>
-
-        <!-- Col 2: Quick Links -->
+        <!-- Col 2 -->
         <div class="footer-section">
-          <h4>Quick Links</h4>
+          <h4>Schnellzugriff</h4>
           <ul>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Patient Portal</a></li>
-            <li><a href="#">Bill Pay</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Karriere</a></li>
+            <li><a href="#">Patientenportal</a></li>
+            <li><a href="#">Rechnungszahlung</a></li>
+            <li><a href="#">Datenschutzrichtlinie</a></li>
           </ul>
         </div>
-
-        <!-- Col 3: Departments -->
+        <!-- Col 3 -->
         <div class="footer-section">
-          <h4>Key Departments</h4>
+          <h4>Wichtige Abteilungen</h4>
           <ul>
-            <li><a href="#">Emergency</a></li>
-            <li><a href="#">Pediatrics</a></li>
-            <li><a href="#">Surgery</a></li>
+            <li><a href="#">Notaufnahme</a></li>
+            <li><a href="#">Pädiatrie</a></li>
+            <li><a href="#">Chirurgie</a></li>
             <li><a href="#">Rehabilitation</a></li>
           </ul>
         </div>
-
-        <!-- Col 4: Contact -->
+        <!-- Col 4 -->
         <div class="footer-section footer-contact">
-          <h4>Contact Us</h4>
+          <h4>Kontakt</h4>
           <p>123 Health Ave, Wellness City, 10001</p>
-          <p class="mt-2">Phone: <span>(555) 123-4567</span></p>
-          <p>Email: info@stjude.org</p>
+          <p class="mt-2">Telefon: <span>(555) 123-4567</span></p>
+          <p>E-Mail: info@stjude.org</p>
         </div>
       </div>
     </footer>
